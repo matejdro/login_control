@@ -1,0 +1,4 @@
+clear_refresh_tokens:
+  fields:
+    user_id:
+      description: User ID (String) of the user that should get refresh tokens cleared

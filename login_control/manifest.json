@@ -1,0 +1,10 @@
+{
+    "domain": "token_control",
+    "name": "token_control",
+    "documentation": "https://github.com/matejdro/login_control",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": [
+        "@matejdro"
+    ]
+}
