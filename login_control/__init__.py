@@ -1,6 +1,6 @@
 import logging
 
-DOMAIN = 'token_control'
+DOMAIN = 'login_control'
 
 async def async_setup(hass, config):
 
