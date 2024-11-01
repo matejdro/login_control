@@ -11,7 +11,7 @@ async def async_setup(hass, config):
         tokens = list(user.refresh_tokens.values())
 
         for token in tokens:
-            await hass.auth.async_remove_refresh_token(token)
+            hass.auth.async_remove_refresh_token(token)
 
     hass.services.async_register(DOMAIN, 'clear_refresh_tokens', handle_refresh_token_clear)
 
